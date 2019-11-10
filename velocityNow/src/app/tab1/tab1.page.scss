@@ -1,4 +1,32 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+.btn {
+
+  //Forma do círculo
+  height: 35%;
+  width: 80%;
+  //Link -- https://www.maujor.com/tutorial/css-shapes.php
+
+
+  //Código para centralização
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  float: left;
+  //Link -- https://www.w3.org/Style/Examples/007/center.pt_BR.html
+}
+.texto {
+  //Código para centralização
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  //Alteração da fonte do botão
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+
 }
